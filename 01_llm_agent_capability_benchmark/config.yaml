@@ -1,0 +1,65 @@
+# LLM Agent 能力评测框架配置
+
+# 模型配置
+models:
+  openai:
+    api_key: ${OPENAI_API_KEY}
+    models:
+      - gpt-4o
+      - gpt-4o-mini
+      - gpt-3.5-turbo
+  
+  # anthropic:
+  #   api_key: ${ANTHROPIC_API_KEY}
+  #   models:
+  #     - claude-3-opus
+  #     - claude-3-sonnet
+  
+  # local:
+  #   base_url: http://localhost:8000/v1
+  #   models:
+  #     - llama2-7b
+  #     - qwen-7b
+
+# 评测配置
+benchmark:
+  # 默认输出目录
+  output_dir: ./results
+  
+  # 评测参数
+  default_temperature: 0.7
+  default_max_tokens: 1024
+  
+  # 评分权重（可用于计算综合得分）
+  scoring_weights:
+    accuracy: 0.4
+    efficiency: 0.2
+    robustness: 0.25
+    safety: 0.15
+
+# 任务配置
+tasks:
+  # 工具调用类任务
+  tool_use:
+    enabled: true
+    tools:
+      - calculator
+      - search
+      - database_query
+  
+  # 规划类任务
+  planning:
+    enabled: true
+  
+  # 上下文理解类任务
+  context:
+    enabled: true
+    max_context_length: 8000  # 测试的上下文长度
+  
+  # 鲁棒性测试任务
+  robustness:
+    enabled: true
+    perturbation_types:
+      - typo
+      - noise
+      - adversarial

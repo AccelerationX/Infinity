@@ -1,0 +1,10 @@
+{
+  "case_id": "02",
+  "description": "列目录并读取第一个文件",
+  "intent": "列出 D:\\ResearchProjects\\13_computer_use_agent 目录下的文件，然后读取 README.md",
+  "expected_tools": ["list_directory", "read_file"],
+  "expected_arguments": {
+    "list_directory": {"path": "D:\\ResearchProjects\\13_computer_use_agent"},
+    "read_file": {"path": "D:\\ResearchProjects\\13_computer_use_agent\\README.md"}
+  }
+}

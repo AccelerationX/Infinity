@@ -1,0 +1,7 @@
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "strategy_cagr", "metric_value": -0.053863091682131436, "step": null, "timestamp": "2026-04-13T19:44:04.711005"}
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "strategy_sharpe", "metric_value": -0.08227842025516256, "step": null, "timestamp": "2026-04-13T19:44:04.711005"}
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "strategy_mdd", "metric_value": -0.4266403098047208, "step": null, "timestamp": "2026-04-13T19:44:04.711005"}
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "risk_total_volatility", "metric_value": 0.02, "step": null, "timestamp": "2026-04-13T19:44:04.711005"}
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "risk_var_95", "metric_value": -0.025467520525542593, "step": null, "timestamp": "2026-04-13T19:44:04.711005"}
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "robustness_score", "metric_value": 0.45625, "step": null, "timestamp": "2026-04-13T19:44:04.711005"}
+{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "metric_name": "execution_shortfall_bps", "metric_value": -174.92914486644545, "step": null, "timestamp": "2026-04-13T19:44:04.712002"}

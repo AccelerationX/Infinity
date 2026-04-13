@@ -1,0 +1,38 @@
+# Computer Use Agent 标准测试任务集
+# 用于量化评估 Agent 在不同场景下的能力
+
+tasks:
+  - id: T001
+    name: notepad_type
+    description: 打开记事本并输入指定文本
+    expected_text: "Hello from Computer Use Agent"
+    difficulty: easy
+    tags: [text_input, single_app]
+
+  - id: T002
+    name: calculator_add
+    description: 打开计算器并计算 23 + 45
+    expected_result: "68"
+    difficulty: medium
+    tags: [math, single_app]
+
+  - id: T003
+    name: browser_search
+    description: 打开 Chrome，访问 baidu.com，搜索 "Artificial Intelligence"
+    expected_title_contains: "Artificial Intelligence"
+    difficulty: hard
+    tags: [browser, multi_step]
+
+  - id: T004
+    name: file_organize
+    description: 把桌面上的所有 PNG 截图移动到 D:\\Pictures\\Screenshots 文件夹
+    expected_action: move_files
+    difficulty: hard
+    tags: [file_system, multi_step]
+
+  - id: T005
+    name: wechat_send
+    description: 打开微信，给文件传输助手发送一条消息 "测试来自 Agent"
+    expected_text: "测试来自 Agent"
+    difficulty: hard
+    tags: [social_app, multi_step]

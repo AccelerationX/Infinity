@@ -1,0 +1,58 @@
+{
+  "model": {
+    "model_name": "MiniMax-M2.7",
+    "config": {}
+  },
+  "timestamp": "2026-04-13T11:45:51.211448",
+  "total_tasks": 2,
+  "summary": {
+    "total_tasks": 2,
+    "successful_tasks": 0,
+    "success_rate": 0.0,
+    "average_score": 0.0,
+    "average_execution_time": 1.1197415590286255,
+    "by_category": {
+      "tool_use": {
+        "total": 2,
+        "success": 0,
+        "score": 0.0,
+        "avg_score": 0.0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "results": [
+    {
+      "task_id": "5da7916d",
+      "task_name": "simple_calculator",
+      "task_category": "tool_use",
+      "success": false,
+      "score": 0.0,
+      "execution_time": 1.6646013259887695,
+      "model_output": "",
+      "error_message": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '062b99f0286d254d7698168978c6ddfd'}",
+      "metadata": {
+        "model_info": {
+          "model_name": "MiniMax-M2.7",
+          "config": {}
+        }
+      }
+    },
+    {
+      "task_id": "eaeeb944",
+      "task_name": "multi_step_calculator",
+      "task_category": "tool_use",
+      "success": false,
+      "score": 0.0,
+      "execution_time": 0.5748817920684814,
+      "model_output": "",
+      "error_message": "Error code: 401 - {'type': 'error', 'error': {'type': 'authorized_error', 'message': 'invalid api key (2049)', 'http_code': '401'}, 'request_id': '062b99f11815ca35af0fe94c114d16fd'}",
+      "metadata": {
+        "model_info": {
+          "model_name": "MiniMax-M2.7",
+          "config": {}
+        }
+      }
+    }
+  ]
+}

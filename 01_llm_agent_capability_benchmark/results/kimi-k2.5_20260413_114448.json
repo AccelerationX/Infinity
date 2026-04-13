@@ -1,0 +1,92 @@
+{
+  "model": {
+    "model_name": "kimi-k2.5",
+    "config": {}
+  },
+  "timestamp": "2026-04-13T11:44:48.183673",
+  "total_tasks": 3,
+  "summary": {
+    "total_tasks": 3,
+    "successful_tasks": 0,
+    "success_rate": 0.0,
+    "average_score": 0.0,
+    "average_execution_time": 43.489885330200195,
+    "by_category": {
+      "companion_emotion": {
+        "total": 3,
+        "success": 0,
+        "score": 0.0,
+        "avg_score": 0.0,
+        "success_rate": 0.0
+      }
+    }
+  },
+  "results": [
+    {
+      "task_id": "d83366ea",
+      "task_name": "emotion_consistency_progressive_happiness",
+      "task_category": "companion_emotion",
+      "success": false,
+      "score": 0.0,
+      "execution_time": 48.838217973709106,
+      "model_output": "",
+      "error_message": "Expected 4 states, got 0",
+      "metadata": {
+        "model_info": {
+          "model_name": "kimi-k2.5",
+          "config": {}
+        },
+        "token_usage": {
+          "prompt_tokens": 143,
+          "completion_tokens": 1024,
+          "total_tokens": 1167
+        },
+        "tool_calls": []
+      }
+    },
+    {
+      "task_id": "5df52edd",
+      "task_name": "emotion_consistency_mixed_emotions",
+      "task_category": "companion_emotion",
+      "success": false,
+      "score": 0.0,
+      "execution_time": 46.96548080444336,
+      "model_output": "",
+      "error_message": "Expected 4 states, got 0",
+      "metadata": {
+        "model_info": {
+          "model_name": "kimi-k2.5",
+          "config": {}
+        },
+        "token_usage": {
+          "prompt_tokens": 137,
+          "completion_tokens": 1024,
+          "total_tokens": 1161
+        },
+        "tool_calls": []
+      }
+    },
+    {
+      "task_id": "2771acdf",
+      "task_name": "emotion_consistency_setback_recovery",
+      "task_category": "companion_emotion",
+      "success": false,
+      "score": 0.0,
+      "execution_time": 34.66595721244812,
+      "model_output": "",
+      "error_message": "Expected 4 states, got 0",
+      "metadata": {
+        "model_info": {
+          "model_name": "kimi-k2.5",
+          "config": {}
+        },
+        "token_usage": {
+          "prompt_tokens": 140,
+          "completion_tokens": 1024,
+          "total_tokens": 1164
+        },
+        "tool_calls": []
+      }
+    }
+  ]
+}

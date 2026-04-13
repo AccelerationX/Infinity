@@ -1,0 +1,10 @@
+{"run_id": "54168922-4d68-4632-8629-4fc05fe6d11e", "param_name": "lookback", "param_value": 5.0, "param_type": "float64"}
+{"run_id": "1e7dd318-3470-4578-bb51-9d282f76c10d", "param_name": "lookback", "param_value": 10.0, "param_type": "float64"}
+{"run_id": "c9008a1c-04a4-40c0-a3de-7740dfb8ac41", "param_name": "lookback", "param_value": 15.0, "param_type": "float64"}
+{"run_id": "78c9c4ba-1167-49c6-a55a-b32dbc4389b2", "param_name": "lookback", "param_value": 20.0, "param_type": "float64"}
+{"run_id": "3fc6dcdb-fd0b-40c6-8b5f-7f0fd5c33f17", "param_name": "lookback", "param_value": 30.0, "param_type": "float64"}
+{"run_id": "0e565226-7d5d-47e0-b4a7-ae0d7d87fbce", "param_name": "lookback", "param_value": 14.0, "param_type": "float64"}
+{"run_id": "147eedf8-d4f8-4bcb-97d8-b86f84638b2f", "param_name": "lookback", "param_value": 29.0, "param_type": "float64"}
+{"run_id": "7cbfab87-dccc-4814-bc79-316a1cbb724d", "param_name": "lookback", "param_value": 23.0, "param_type": "float64"}
+{"run_id": "a531e71e-0ad9-45ee-b3ed-17d8ad4eba52", "param_name": "lookback", "param_value": 20.0, "param_type": "float64"}
+{"run_id": "c069a402-cda5-453c-bffb-3892c55f441c", "param_name": "lookback", "param_value": 9.0, "param_type": "float64"}

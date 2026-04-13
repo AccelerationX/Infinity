@@ -1,0 +1,14 @@
+# MACP - Multi-Agent Collaboration Protocol
+# Dependencies
+
+# LLM API
+openai>=1.0.0
+
+# Web Dashboard
+flask>=2.0.0
+
+# Optional: For async support
+# aiohttp>=3.8.0
+
+# Optional: For better JSON handling
+# pydantic>=2.0.0
