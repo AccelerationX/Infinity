@@ -1,6 +1,0 @@
-{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "param_name": "data.stocks", "param_value": ["000001.SZ", "000333.SZ", "000858.SZ", "002594.SZ", "600519.SH"], "param_type": "list"}
-{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "param_name": "data.start", "param_value": "2022-01-04", "param_type": "str"}
-{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "param_name": "data.end", "param_value": "2024-12-31", "param_type": "str"}
-{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "param_name": "strategy.type", "param_value": "momentum", "param_type": "str"}
-{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "param_name": "strategy.lookback", "param_value": 20, "param_type": "int"}
-{"run_id": "f400e86b-6998-4581-81cb-f12683d60b8f", "param_name": "strategy.top_n", "param_value": 2, "param_type": "int"}

@@ -1,9 +1,0 @@
-{
-  "case_id": "01",
-  "description": "读取指定文件内容",
-  "intent": "帮我看一下 D:\\ResearchProjects\\13_computer_use_agent\\README.md 的内容",
-  "expected_tools": ["read_file"],
-  "expected_arguments": {
-    "read_file": {"path": "D:\\ResearchProjects\\13_computer_use_agent\\README.md"}
-  }
-}

@@ -47,7 +47,22 @@ desktop.ini
 *.log
 logs/
 
-# Large model/data files (adjust if needed)
+# Interview & resume docs (research only)
+INTERVIEW_GUIDE.md
+INTERVIEW_CHEATSHEET.md
+INTERVIEW_QA.md
+NARRATIVE_GUIDE.md
+
+# Runtime data / artifacts
+*.jsonl
+results/
+experiments/
+tushare_data/
+.trading_strategy_audit/
+.workbench_tushare_integration/
+.workbench_demo/
+
+# Large model/data files
 *.pkl
 *.pt
 *.pth
@@ -59,8 +74,3 @@ logs/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Local databases (optional, uncomment if large)
-# *.db
-# *.sqlite
-# *.sqlite3
